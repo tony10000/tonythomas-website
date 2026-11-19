@@ -1,94 +1,31 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tony Thomas writes about technology, creativity, writing, and the ideas shaping our lives.">
-  <meta name="theme-color" content="#111418">
-  <title>Tony Thomas | Writer & Author</title>
-  <style>
-    :root { color-scheme: dark; --paper:#111418; --ink:#f2eee6; --muted:#b6b7b5; --line:#34393d; --accent:#e5a56f; --serif:Georgia,'Times New Roman',serif; --sans:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); -webkit-font-smoothing:antialiased; }
-    a { color:inherit; text-decoration:none; }
-    a:hover { color:var(--accent); }
-    a:focus-visible { outline:2px solid var(--accent); outline-offset:5px; }
-    .wrap { width:min(1120px,calc(100% - 56px)); margin:auto; }
-    .masthead { border-bottom:1px solid var(--line); }
-    .masthead-inner { display:flex; align-items:center; justify-content:space-between; gap:24px; min-height:88px; }
-    .brand { font:700 29px/1 var(--serif); letter-spacing:-.045em; }
-    nav { display:flex; gap:30px; flex-wrap:wrap; }
-    nav a { font-size:13px; font-weight:650; letter-spacing:.035em; }
-    .hero { padding:112px 0 108px; border-bottom:1px solid var(--line); }
-    .eyebrow { display:flex; align-items:center; gap:13px; color:var(--accent); font-size:11px; font-weight:750; letter-spacing:.21em; text-transform:uppercase; }
-    .eyebrow::before { content:""; display:block; height:2px; width:34px; background:var(--accent); }
-    h1,h2,h3,p { margin-top:0; }
-    h1 { font:normal clamp(76px,11vw,148px)/.95 var(--serif); letter-spacing:-.075em; margin:28px 0 32px; }
-    .lede { max-width:740px; font:normal clamp(23px,2.7vw,33px)/1.46 var(--serif); letter-spacing:-.018em; }
-    .intro { max-width:670px; color:var(--muted); font-size:16px; line-height:1.85; margin:23px 0 35px; }
-    .actions { display:flex; flex-wrap:wrap; gap:15px 27px; align-items:center; }
-    .primary { display:inline-flex; align-items:center; padding:15px 22px; background:var(--accent); color:#171411; font-size:13px; font-weight:700; border:1px solid var(--accent); }
-    .primary:hover { background:#f2bd91; color:#171411; }
-    .secondary { font-size:13px; font-weight:700; border-bottom:1px solid var(--ink); padding:9px 0; }
-    .section { padding:76px 0; border-bottom:1px solid var(--line); }
-    .section-top { display:flex; align-items:baseline; justify-content:space-between; gap:20px; margin-bottom:35px; }
-    .section-title { font:normal clamp(36px,5vw,56px)/1.1 var(--serif); letter-spacing:-.05em; margin:0; }
-    .section-note { font-size:12px; color:var(--muted); }
-    .articles { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; }
-    .article { border-top:2px solid var(--ink); padding-top:21px; }
-    .article .num { font-size:11px; color:var(--accent); font-weight:700; letter-spacing:.12em; }
-    .article h3 { font:normal 28px/1.2 var(--serif); letter-spacing:-.035em; margin:16px 0 12px; }
-    .article p { color:var(--muted); font-size:14px; line-height:1.7; }
-    .article .read { display:inline-block; margin-top:8px; font-size:12px; font-weight:750; border-bottom:1px solid var(--accent); padding-bottom:4px; }
-    .about-grid { display:grid; grid-template-columns:1fr 1.3fr; gap:90px; }
-    .about-grid p { font:normal 20px/1.7 var(--serif); color:#d0cdc7; }
-    .links { display:grid; grid-template-columns:repeat(3,1fr); gap:26px; }
-    .link-card { border-top:1px solid var(--line); padding-top:18px; }
-    .link-card strong { display:block; font:normal 25px var(--serif); margin-bottom:9px; }
-    .link-card p { color:var(--muted); font-size:13px; line-height:1.7; }
-    .link-card a { font-size:12px; font-weight:750; color:var(--accent); }
-    footer { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; padding:34px 0 45px; color:var(--muted); font-size:12px; }
-    @media(max-width:750px) { .wrap{width:min(100% - 36px,1120px)} .masthead-inner{align-items:flex-start;flex-direction:column;justify-content:center;padding:22px 0;gap:18px} nav{gap:20px} .hero{padding:75px 0 72px} h1{font-size:clamp(65px,14vw,100px)} .section{padding:55px 0} .articles,.links{grid-template-columns:1fr} .about-grid{grid-template-columns:1fr;gap:16px} .section-top{align-items:flex-start;flex-direction:column;gap:10px} }
-    @media(prefers-reduced-motion:reduce) { html{scroll-behavior:auto} }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1424">
+<meta name="description" content="Tony Thomas — Writer, Content Creator, AI Enthusiast, and Technologist. Explore books, essays, software projects, and social profiles.">
+<title>Tony Thomas | Writer | Content Creator | AI Enthusiast | Technologist</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1424;--panel:#111f34;--text:#f2f5fb;--muted:#a9b9cd;--line:#2a405c;--accent:#8bbcf8;--serif:Georgia,'Times New Roman',serif;--sans:system-ui,-apple-system,'Segoe UI',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}.wrap{width:min(1050px,calc(100% - 48px));margin:auto}.masthead{border-bottom:1px solid var(--line)}.masthead-inner{display:flex;align-items:center;justify-content:space-between;gap:25px;min-height:86px}.brand{font:600 25px/1.2 var(--serif);letter-spacing:.035em}nav{display:flex;flex-wrap:wrap;gap:26px}nav a{font-size:13px;font-weight:650}.hero{padding:100px 0 95px;border-bottom:1px solid var(--line)}.kicker{color:var(--accent);font-size:12px;font-weight:750;letter-spacing:.16em;text-transform:uppercase}h1,h2,h3,p{margin-top:0}h1{font:400 clamp(64px,10vw,126px)/1.08 var(--serif);letter-spacing:.018em;margin:20px 0 30px;max-width:100%;overflow-wrap:normal}.lede{max-width:770px;font:400 clamp(22px,2.7vw,32px)/1.48 var(--serif)}.intro{max-width:690px;color:var(--muted);font-size:16px;line-height:1.85;margin:22px 0 0}.section{padding:70px 0;border-bottom:1px solid var(--line)}.section-title{font:400 clamp(36px,5vw,54px)/1.15 var(--serif);margin:0 0 28px}.section-sub{color:var(--muted);line-height:1.75;max-width:650px;margin:-10px 0 34px}.destinations{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.destination{display:flex;flex-direction:column;align-items:flex-start;min-height:220px;padding:26px;border:1px solid var(--line);background:var(--panel);transition:border-color .15s ease,transform .15s ease}.destination:hover{border-color:var(--accent);transform:translateY(-2px);color:var(--text)}.destination h3{font:400 32px/1.2 var(--serif);margin:0 0 16px}.destination p{color:var(--muted);font-size:14px;line-height:1.7;margin:0 0 25px}.destination span{margin-top:auto;color:var(--accent);font-size:13px;font-weight:700}.about{max-width:760px;color:#d4dfed;font:400 20px/1.8 var(--serif)}.socials{display:flex;flex-wrap:wrap;gap:12px}.socials a{display:inline-block;padding:12px 17px;border:1px solid var(--line);font-size:14px}.socials a:hover{border-color:var(--accent)}.contact{color:var(--muted);font-size:14px;margin:28px 0 0}.contact a{color:var(--accent);text-decoration:underline;text-underline-offset:4px}footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:35px 0 50px;color:var(--muted);font-size:12px}@media(max-width:760px){.masthead-inner{flex-direction:column;align-items:flex-start;padding:22px 0;gap:18px}.hero{padding:70px 0}.destinations{grid-template-columns:1fr}.destination{min-height:190px}.section{padding:54px 0}h1{font-size:clamp(54px,13vw,90px)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.destination{transition:none}}
+</style>
 </head>
 <body>
-  <header class="masthead"><div class="wrap masthead-inner">
-    <a class="brand" href="#top" aria-label="Tony Thomas, home">Tony Thomas.</a>
-    <nav aria-label="Main navigation"><a href="#writing">Writing</a><a href="#about">About</a><a href="#elsewhere">Elsewhere</a></nav>
-  </div></header>
-  <main id="top">
-    <section class="hero"><div class="wrap">
-      <div class="eyebrow">Writer · Author · Technologist</div>
-      <h1>Tony Thomas.</h1>
-      <p class="lede">Writing about technology, creativity, and the ideas that shape the way we live.</p>
-      <p class="intro">I’m a writer and author with a longstanding interest in communication, culture, and technology. Here you’ll find my essays, reflections, and links to the projects I’m working on.</p>
-      <div class="actions"><a class="primary" href="#writing">Explore my writing ↗</a><a class="secondary" href="https://github.com/tony10000">Find me on GitHub ↗</a></div>
-    </div></section>
-    <section class="section" id="writing"><div class="wrap">
-      <div class="section-top"><h2 class="section-title">Selected writing</h2><span class="section-note">Essays, observations & ideas</span></div>
-      <!-- Replace the three example entries below with links to your actual article files or archive. -->
-      <div class="articles">
-        <article class="article"><span class="num">01 / WRITING</span><h3>Writing & the creative process</h3><p>Thoughts on clear prose, authorship, and the tools that support good writing.</p><a class="read" href="https://github.com/tony10000">Browse on GitHub ↗</a></article>
-        <article class="article"><span class="num">02 / TECHNOLOGY</span><h3>Technology & everyday life</h3><p>Reflections on software, artificial intelligence, and the changing digital world.</p><a class="read" href="https://github.com/tony10000">Browse on GitHub ↗</a></article>
-        <article class="article"><span class="num">03 / COMMENTARY</span><h3>Ideas worth examining</h3><p>Essays about culture, media, and questions that deserve careful consideration.</p><a class="read" href="https://github.com/tony10000">Browse on GitHub ↗</a></article>
-      </div>
-    </div></section>
-    <section class="section" id="about"><div class="wrap about-grid">
-      <div><div class="eyebrow">A little background</div><h2 class="section-title" style="margin-top:22px">About Tony</h2></div>
-      <div><p>My work spans writing, publishing, music, and technology. Across these fields, I’ve always been interested in how people communicate ideas and create meaningful work.</p><p>This website is a simple home for my writing and a starting point for exploring the rest of my work.</p></div>
-    </div></section>
-    <section class="section" id="elsewhere"><div class="wrap">
-      <div class="section-top"><h2 class="section-title">Elsewhere</h2><span class="section-note">More of my work</span></div>
-      <div class="links">
-        <div class="link-card"><strong>Articles & code</strong><p>Writing archives, software experiments, and open-source projects.</p><a href="https://github.com/tony10000">Visit GitHub ↗</a></div>
-        <div class="link-card"><strong>Books</strong><p>Published books and longer-form writing.</p><a href="https://www.amazon.com/stores/Tony-Thomas/author/">Find books on Amazon ↗</a></div>
-        <div class="link-card"><strong>More writing</strong><p>Selected essays published on Medium.</p><a href="https://medium.com/">Visit Medium ↗</a></div>
-      </div>
-    </div></section>
-  </main>
-  <footer class="wrap"><span>© <span id="year">2026</span> Tony Thomas</span><span>Independent writing. A simple home on the web.</span></footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
-</body>
-</html>
+<main id="top">
+<section class="hero"><div class="wrap"><div class="kicker">Writer | Content Creator | AI Enthusiast | Technologist</div><h1>Tony Thomas</h1><p class="lede">Nearly five decades as a professional writer. Always looking for new ways to learn, to create, and to reach people.</p><p class="intro">I’m especially interested in artificial intelligence and the ways emerging technology is changing how we write, create, and communicate. Explore my writing on Medium, my books on Amazon, and my projects on GitHub.</p></div></section>
+<section class="section" id="work"><div class="wrap"><h2 class="section-title">Explore my work</h2><p class="section-sub">Three places to find my published writing, books, and ongoing projects.</p><div class="destinations">
+<a class="destination" href="https://medium.com/@tthomas1000" target="_blank" rel="noopener noreferrer"><h3>Medium</h3><p>Essays, commentary, and reflections on writing, technology, and the world around us.</p><span>Read on Medium ↗</span></a>
+<a class="destination" href="https://www.amazon.com/stores/Tony-Thomas/author/B0143WB43W" target="_blank" rel="noopener noreferrer"><h3>Books</h3><p>Find my published books on Amazon.</p><span>Find my books ↗</span></a>
+<a class="destination" href="https://github.com/tony10000" target="_blank" rel="noopener noreferrer"><h3>GitHub</h3><p>Software projects, experiments, and work in progress.</p><span>Visit GitHub ↗</span></a>
+</div></div></section>
+<section class="section" id="about"><div class="wrap"><h2 class="section-title">About</h2><p class="about">My work spans writing, content creation, music, and technology. Today, I spend much of my time exploring AI, experimenting with local language models, and developing tools that support writing and creative work. Curiosity has kept me learning for nearly five decades, and I have no plans to stop.</p></div></section>
+<section class="section" id="connect"><div class="wrap"><h2 class="section-title">Find me elsewhere</h2><div class="socials">
+<a href="https://www.linkedin.com/in/tony10000" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<a href="https://www.youtube.com/@TonyThomas10000" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
+<a href="https://www.facebook.com/tony10000" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+<a href="https://www.instagram.com/tony10000/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+<a href="https://www.threads.net/@tony10000" target="_blank" rel="noopener noreferrer">Threads ↗</a>
+<a href="https://bsky.app/profile/tony10000.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky ↗</a>
+</div></div></section>
+</main><footer class="wrap"><span>© 2026 Tony Thomas</span><span>tonythomas.net</span></footer>
+</body></html>
