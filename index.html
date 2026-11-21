@@ -94,9 +94,10 @@ h1 {
 .specialties h3 { margin: 0 0 13px; font: 400 23px/1.25 var(--serif); }
 .specialty-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 24px; margin: 0; padding-left: 19px; color: var(--muted); font-size: 13px; line-height: 1.65; }
 .specialty-list li::marker { color: var(--accent); }
-.socials { display: flex; flex-wrap: wrap; gap: 9px; }
-.socials a { padding: 10px 14px; border: 1px solid var(--line); color: #d3d9df; font-size: 13px; transition: border-color .18s ease, color .18s ease; }
-.socials a:hover { border-color: #52657a; color: var(--accent); }
+.connect-title { margin-bottom: 24px; }
+.socials { display: flex; flex-wrap: wrap; gap: 12px; }
+.socials a { display: inline-flex; align-items: center; padding: 11px 17px; border: 1px solid #344252; border-radius: 999px; background: #121b26; color: #d3d9df; font-size: 13px; font-weight: 550; transition: border-color .18s ease, background .18s ease, color .18s ease, transform .18s ease; }
+.socials a:hover { transform: translateY(-1px); border-color: #647b95; background: #182432; color: var(--accent); }
 footer { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding: 27px 0 38px; color: #8994a2; font-size: 12px; }
 @media (max-width: 720px) {
   .wrap { width: min(100% - 36px, 1020px); }
@@ -197,7 +198,7 @@ footer { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wr
   </section>
   <section class="section" id="connect">
     <div class="wrap">
-      <h2 class="section-title">Find me elsewhere</h2>
+      <h2 class="section-title connect-title">Find me elsewhere</h2>
       <div class="socials">
         <a href="https://www.linkedin.com/in/tony10000" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
         <a href="https://www.youtube.com/@TonyThomas10000" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
